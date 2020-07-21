@@ -15,6 +15,8 @@ public class App {
 		List<Sismos> listaSismos = sismos.retornarSismos();
 		System.out.println(listaSismos);// imprimo los sismos
 		sismos.mostrarUltimoSismo(listaSismos);// muestra el ultimo sismo en chile
+		
+		System.out.println("Creacion de nuevo menu: ");
 
 	}
 }
